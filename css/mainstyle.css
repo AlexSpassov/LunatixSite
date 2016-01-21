@@ -1,0 +1,104 @@
+.container{
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFF;
+	box-shadow:5px 5px 10px #a6a6a6, -5px -5px 10px #a6a6a6;
+	box-sizing:border-box;
+}
+.content-area{
+	padding:0px 40px;
+}
+.center{
+		width:70%;
+		margin-left:15%;
+		margin-right:15%;
+}
+.logo{
+	height:150px;
+	width:150px;
+	display:block;
+}
+.sidep{
+	text-align:center;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.container header{
+	background-image:url(../images/LUNATIXbanner.jpg);
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size: 100% 150px;
+	padding:none;
+	margin:none;
+	box-sizing:border-box;
+}
+img {
+	max-width:100%;
+	height:auto;
+}
+html{
+	background-color:#666;
+}
+.main-area{
+	width:75%;
+	float:left;
+	font-size:150%;
+	padding: 10px 30px 0px 0px;
+	box-sizing: border-box;
+	text-align:center;
+}
+.bborder{
+	border-bottom:3px solid #000;
+	text-align:center;
+	display:block;
+	margin: 10px 0px 0px 0px;
+	box-sizing:border-box;
+}
+.sidearea{
+	width:25%;
+	float:left;
+	padding: 25px 0px 0px 30px;
+	border-left:2px solid #000;	
+	box-sizing: border-box;
+}
+@media screen and (max-width:900px){
+	.main-area,
+	.sidearea,
+	.center{
+		width:auto;
+		float:none;
+	}
+	.main-area{
+		padding:5px;
+	}
+	.sidearea{
+		border:none;
+	}
+	.content-area{
+	padding:0px;
+}
+	.center{
+		width:50%;
+		margin-left:25%;
+		margin-right:25%;
+	}
+}
+
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
